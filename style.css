@@ -1,0 +1,22 @@
+:root {
+    --bg_color: #FFFFFF;
+    --light_green: linear(#DFF7E6 , #E5F9EB, #FFFFFF);
+    --btn_color: #3CAD6D;
+    --dark_green: #0F6722;
+    --footer_color: #FDF4EB;
+    
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2a linear ;
+}
+
