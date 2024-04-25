@@ -7,7 +7,7 @@
     
 }
 
-
+ 
 *{
     margin:0;
     padding: 0;
@@ -16,39 +16,48 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .2a linear ;
 }
 
-header {
+.navbar {
     display: flex;
-    justify-content: space-between; /* Distribute items evenly */
+    justify-content: space-between; 
     align-items: center;
     background-color: var(--bg_color);
     color: white;
     font-size: 20px;
-    padding: 20px;
-    /* margin: 10px; */
+    padding: 30px;
 }
 
-header img {
+.navbar img {
     
     width: 80px;
     height: auto;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%; 
     object-fit: cover;
+    cursor: pointer;
    
 }
 
-.navbar {
-    display: inline-block;
-    width: 80%;
-    background: red;
-    /* background:var(--bg_color); Set your desired color */
-    overflow: auto;
+nav {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    
-    /* display: inline-block; */
+    gap: 20px;
+    width: 40%;
+    /* background: red; */
+    justify-content: space-between;
+    /* overflow: auto; */
+} 
 
+.navbar .icons{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    gap: 20px;
+    width: 10%;
+    justify-content: space-between;
+    /* cursor: pointer; */
 }
