@@ -1,6 +1,6 @@
 :root {
     --bg_color: #FFFFFF;
-    --light_green: linear(#DFF7E6 , #E5F9EB, #FFFFFF);
+    --light_green: linear(45deg, #45b667 , #adf8c4, #FFFFFF);
     --btn_color: #3CAD6D;
     --dark_green: #0F6722;
     --footer_color: #FDF4EB;
@@ -90,34 +90,36 @@ nav a:hover{
 
 /* -------------------section home below nav---------- */
 .row {
-    padding-left: 5%;
-    padding-right: 5%;
+    /* background: var(--light_green); */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
-    background-color: var(--light_green);
 }
 
 .col1{
+    /* background-color: var(--light_green); */
+    padding-top: 30px;
     flex-basis: 50%;
     position: relative;
     margin-left: 60px;
     color: var(--text-color);
+    /* background: #3CAD6D; */
 }
 
 .col1 h2 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .col1 p {
     margin-top: 5px;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 
 .col2{
+    padding-top: 30px;
     position: relative;
     flex-basis: 50%;
     display: flex;
