@@ -90,31 +90,44 @@ nav a:hover{
 
 /* -------------------section home below nav---------- */
 .row {
-    /* background: var(--light_green); */
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
 }
 
 .col1{
-    /* background-color: var(--light_green); */
     padding-top: 30px;
     flex-basis: 50%;
     position: relative;
     margin-left: 60px;
     color: var(--text-color);
-    /* background: #3CAD6D; */
 }
 
 .col1 h2 {
     font-size: 30px;
+    padding-bottom: 15px;
 }
 
 .col1 p {
     margin-top: 5px;
     font-size: 15px;
     font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.col1 .shop_btn{
+
+    padding: 20px;
+    background: var(--btn_color);
+    border-radius: 5px;
+    width: 200px;
+}
+.col1 .shop_btn a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
@@ -128,6 +141,8 @@ nav a:hover{
 }
 
 
+
+
 .image1{
     position: absolute;
     width: 300px;
@@ -136,17 +151,17 @@ nav a:hover{
 .image2 {
     position: absolute;
     width: 300px;
-    height: 500px;
+    height: 600px;
 }
 
 .image1 {
     z-index: 1; /* Image 1 is below Image 2 */
     left: 0;
-    top: 0;
+    top: -100px;
 }
 
 .image2 {
     z-index: 2; /* Image 2 is above Image 1 */
     left: 200px;
-    top:-40px; /* Add a gap of 10px between the images */
+    top:-190px; /* Add a gap of 10px between the images */
 }
