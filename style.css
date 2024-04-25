@@ -96,10 +96,11 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
+    background-color: var(--light_green);
 }
 
 .col1{
-    flex-basis: 40%;
+    flex-basis: 50%;
     position: relative;
     margin-left: 60px;
     color: var(--text-color);
@@ -118,18 +119,22 @@ nav a:hover{
 
 .col2{
     position: relative;
-    flex-basis: 60%;
+    flex-basis: 50%;
     display: flex;
     flex-direction: row;
     align-items: left;
 }
 
 
-.image1,
+.image1{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
 .image2 {
     position: absolute;
-    width: 280px;
-    height: 100px;
+    width: 300px;
+    height: 500px;
 }
 
 .image1 {
@@ -140,6 +145,6 @@ nav a:hover{
 
 .image2 {
     z-index: 2; /* Image 2 is above Image 1 */
-    left: 0;
-    top: 10px; /* Add a gap of 10px between the images */
+    left: 200px;
+    top:-40px; /* Add a gap of 10px between the images */
 }
