@@ -20,3 +20,35 @@
     transition: .2a linear ;
 }
 
+header {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center;
+    background-color: var(--bg_color);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    /* margin: 10px; */
+}
+
+header img {
+    
+    width: 80px;
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+   
+}
+
+.navbar {
+    display: inline-block;
+    width: 80%;
+    background: red;
+    /* background:var(--bg_color); Set your desired color */
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    
+    /* display: inline-block; */
+
+}
