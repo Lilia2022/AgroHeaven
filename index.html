@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgroHeaven</title>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+     <!-- styling swiper -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
     <!-- link cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
@@ -68,25 +73,135 @@
 
     <!-- small intruction -->
     <div class="instruction">
+        <div class="instruct1">
+            <i class="fas fa-box"></i>
+            <p>Product from <br>organic farm</p>
+        </div>
 
+        <div class="instruct2">
+            <i class="fas fa-truck"></i>
+            <p>Free home <br> delivery</p>
+        </div>
+
+        <div class="instruct3">
+            <i class="fas fa-bullhorn"></i>
+            <p>Promotion of the <br> week</p >
+        </div>
+
+        <div class="instruct4">
+            <i class="fas fa-tags"></i>
+            <p>-20% discount on <br>veggies</p>
+        </div>
+        
     </div>
 
     <!-- best category -->
     <div class="best_cat">
+        <h3>Browse Our Hottest Categories</h3>
+        <div class="cat">
 
+            <div class="img1">
+                <img src="ima/leaf.png" alt="leaf">
+                <p>Leafy</p>
+            </div>
+
+            <div class="img2">
+                <img src="ima/crusif.png" >
+                <p>Cruciferous</p>
+            </div>
+
+            <div class="img3">
+                <img src="ima/marrow.png" alt="marrow">
+                <p>Marrow</p>
+            </div>
+
+            <div class="img4">
+                <img src="ima/roots.png" alt="roots">
+                <p>Roots</p>
+            </div>
+
+            <div class="img5">
+                <img src="ima/onion.png" alt="onion">
+                <p>Allium</p>
+            </div>
+
+        </div>
     </div>
 
     <!-- product display -->
     <div class="product" id="product">
+        <h2>Our products</h2>
+        <p>Here are some featured products we provided. Check them out</p>
         <!-- swipper -->
+         
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- name , price par kg, rating -->
+                <div class="swiper-slide">
+                    <img src="ima/chilly.jpeg" alt="">
+                    <h2>Organic chilly <br> <sub>N2,000 per 500g</sub></h2>
+                    <div class="rating">
+                        <i class="fas fa-star checked" title="1 star"></i>
+                        <i class="fas fa-star checked" title="2 stars"></i>
+                        <i class="fas fa-star checked" title="3 stars"></i>
+                        <i class="fas fa-star checked" title="3 stars"></i>
+                        <i class="fas fa-star" title="5 stars"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="ima/potatoes.jpeg" alt="">
+                    <h2>Organic potatoes <br> <sub>N70 per 500g</sub></h2>
+                    <div class="rating">
+                        <i class="fas fa-star checked" title="1 star"></i>
+                        <i class="fas fa-star checked" title="2 stars"></i>
+                        <i class="fas fa-star checked" title="3 stars"></i>
+                        <i class="fas fa-star" title="4 stars"></i>
+                        <i class="fas fa-star" title="5 stars"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="ima/carrots.jpeg" alt="">
+                    <h2>Organic spinach <br> <sub>N400 per 500g</sub></h2>
+                    <div class="rating">
+                        <i class="fas fa-star checked" title="1 star"></i>
+                        <i class="fas fa-star checked" title="2 stars"></i>
+                        <i class="fas fa-star checked" title="3 stars"></i>
+                        <i class="fas fa-star" title="4 stars"></i>
+                        <i class="fas fa-star" title="5 stars"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="ima/cabagge.jpeg" alt="">
+                    <h2>Organic spinach <br> <sub>N300 per 500g</sub></h2>
+                    <div class="rating">
+                        <i class="fas fa-star checked" title="1 star"></i>
+                        <i class="fas fa-star checked" title="2 stars"></i>
+                        <i class="fas fa-star checked" title="3 stars"></i>
+                        <i class="fas fa-star checked" title="3 stars"></i>
+                        <i class="fas fa-star" title="5 stars"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
+    
 
-    <div class="shop_now">
+    <div class="goShopping">
         <div class="first_col">
-
+            <img src="ima/legumes.png" alt="legumes">
         </div>
         <div class="second_col">
-
+            <p>We believe in working with accredited organic farmers. </p>
+    
+            <button> Shop now</button>
         </div>
     </div>
 

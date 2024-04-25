@@ -1,6 +1,6 @@
 :root {
     --bg_color: #FFFFFF;
-    --light_green: linear(45deg, #45b667 , #adf8c4, #FFFFFF);
+    /* --light_green: linear-gradient(to right, #45b667 , #FFFFFF); */
     --btn_color: #3CAD6D;
     --dark_green: #0F6722;
     --footer_color: #FDF4EB;
@@ -46,7 +46,6 @@ nav {
     gap: 20px;
     width: 40%;
     justify-content: space-between;
-    /* overflow: auto; */
 } 
 nav a{
     text-decoration: none;
@@ -94,12 +93,14 @@ nav a:hover{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0;
+    margin: 10px 0px;
+    padding: 50px;
+    background-color: #dbf7e7
 }
 
 .col1{
-    padding-top: 30px;
-    flex-basis: 50%;
+    padding-top: 50px;
+    flex-basis: 45%;
     position: relative;
     margin-left: 60px;
     color: var(--text-color);
@@ -119,10 +120,12 @@ nav a:hover{
 
 .col1 .shop_btn{
 
-    padding: 20px;
+    padding: 10px;
     background: var(--btn_color);
-    border-radius: 5px;
+    border-radius: 7px;
     width: 200px;
+    margin-bottom: 30px;
+
 }
 .col1 .shop_btn a{
     color: white;
@@ -132,9 +135,9 @@ nav a:hover{
 
 
 .col2{
-    padding-top: 30px;
+    padding-top: 50px;
     position: relative;
-    flex-basis: 50%;
+    flex-basis: 55%;
     display: flex;
     flex-direction: row;
     align-items: left;
@@ -165,3 +168,237 @@ nav a:hover{
     left: 200px;
     top:-190px; /* Add a gap of 10px between the images */
 }
+
+/* ---------------instruction--------------- */
+.instruction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 20px;
+}
+
+.instruct1, .instruct2, .instruct3, .instruct4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.instruction i {
+    font-size: 40px;
+    color: orange;
+}
+.instruction p{
+    font-size: 18px;
+    color: black;
+}
+
+/* ------------best category------ */
+.best_cat {
+    display: flex;
+    flex-direction: column;
+}
+.best_cat h3 {
+    margin-left: 40%;
+}
+.best_cat .cat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 20px;
+
+}
+
+.img1, .img2, .img3, .img4, .img5{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.best_cat .cat img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #eee8e3;
+    object-fit: cover;
+}
+
+.best_cat .cat p{
+    margin-left: 28px;
+    font-size: 18px;
+}
+
+/* -------------Product display----------------- */
+/* styles.css */
+
+/* Product Card Styles */
+.product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card sub {
+    font-size: 14px;
+    color: #888;
+}
+
+.rating {
+    color: #f1c40f; /* Star color */
+    font-size: 16px;
+}
+
+.checked {
+    color: #f1c40f; /* Filled star color */
+}
+
+.swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.swiper{
+    width: 750px;
+    height: 385px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+ /* Product card container */
+.product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:var(--bg-color) ;
+}
+
+.product h2{
+    font-size: 54px;
+    color: #095000;
+}
+.product p{
+    padding: 10px;
+}
+.swiper{
+    width: 90%;
+    height: 385px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    padding: 10px;
+    height: 320px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+/* Product image */
+.swiper-slide img {
+    margin-top: 30px;
+    position: relative;
+    width: 180px;
+    height: 140px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+/* Product name */
+.swiper-slide h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Price per kg */
+.swiper-slide sub {
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: #090909;
+} 
+
+/* Star rating */
+.rating {
+    color: #c7c3c3; /* Star color */
+    font-size: 16px;
+}
+
+.checked {
+    color: #f1c40f; /* Filled star color */
+}
+
+/* --------next section shop now------------- */
+.goShopping {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.first_col{
+    /* padding-top: 20px; */
+    flex-basis: 60%;
+    position: relative;
+    margin-left: 100px;
+    color: var(--text-color);
+}
+.first_col img {
+    margin-left: 20%;
+    max-width: 300px;
+    height: auto;
+}
+.second_col {
+    padding-top: 50px;
+    position: relative;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.second_col p{
+    width: 60%;
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.second_col button {
+    width: 60%;
+    padding: 10px;
+    background: var(--btn_color);
+    color: #fff;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
