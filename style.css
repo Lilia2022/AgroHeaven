@@ -402,7 +402,47 @@ nav a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 40px 20px 40px;
+    padding: 30px 50px 30px 50px;
+}
+
+.ov1, .ov2, .ov3, .ov4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.overview i{
+    font-size: 40px;
+    color: #3CAD6D;
+}
+.overview h3{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    z-index: 1;
+
+}
+.overview h3 span{
+    font-size: 23px;
+    z-index: 2;
+    font-weight: 600;
+}
+.overview .ov3-span1{
+    font-size: 23px;
+    top: -30px;
+    font-weight: 600;
+}
+
+.overview .ov3-span2{
+    z-index: 2;
+    font-weight: 600;
+    font-size: 19px;
+    top: 0;
+}
+.overview p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
 }
 
 
