@@ -4,7 +4,7 @@
     --btn_color: #3CAD6D;
     --dark_green: #0F6722;
     --footer_color: #FDF4EB;
-    
+    --text_color: black;
 }
 
  
@@ -16,10 +16,9 @@
     outline: none;
     border: none;
     text-decoration: none;
-    /* text-transform: capitalize; */
-    transition: .2a linear ;
+    
 }
-
+/* ---------------navbar---------------- */
 .navbar {
     display: flex;
     justify-content: space-between; 
@@ -46,18 +45,49 @@ nav {
     align-items: center;
     gap: 20px;
     width: 40%;
-    /* background: red; */
     justify-content: space-between;
     /* overflow: auto; */
 } 
-
+nav a{
+    text-decoration: none;
+    color: var(--text_color);
+}
+nav a:hover{
+    color: var(--btn_color);
+}
 .navbar .icons{
-    /* background-color: red; */
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: right;
     gap: 20px;
-    width: 10%;
+    width: 15%;
     justify-content: space-between;
-    /* cursor: pointer; */
+    
 }
+.navbar .icons a {
+    color: black;
+}
+
+.navbar .icons a:hover{
+    color: var(--btn_color);
+}
+
+.navbar .icons .cart{
+    display: flex;
+}
+.navbar .icons ul{
+    display: block;
+}
+.navbar .icons ul a{
+    font-size: 15px;
+    padding-right: 0;
+}
+.navbar .icons ul span{
+    font: 10px;
+    color: orange;
+}
+
+/* -------------------section home below nav---------- */
+
+
