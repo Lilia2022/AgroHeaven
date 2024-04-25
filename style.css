@@ -357,7 +357,7 @@ nav a:hover{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-
+    margin-bottom: 20px;
 }
 
 .first_col{
@@ -394,6 +394,15 @@ nav a:hover{
     background: var(--btn_color);
     color: #fff;
     border-radius: 7px;
+}
+
+/* -----------------overview-------------------- */
+.overview {
+    background: var(--dark_green);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
 }
 
 
