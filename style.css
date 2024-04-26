@@ -813,6 +813,84 @@ footer {
     margin-left: 50%;
 }
 
+.card_bank {
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    align-items: center;
+}
+
+.card_bank input{
+    border: 1px solid #eeeeee;
+    background: #eeee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card_bank input #cas{
+    width: 40%;
+}
+
+.card_bank .security #cvc{
+    width: 100px;
+}
+
+.card_bank button{
+    padding: 15px;
+    width: 180px;
+    background: var(--btn_color);
+    cursor: pointer;
+    border-radius: 7px;
+}
+.card_bank button:hover{
+    background: #c1c0c0;
+}
+
+.card_bank button a{
+    color: #fff;
+}
+
+.card_bank button a:hover{
+    color: var(--btn_color);
+}
+
+.paypal{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 15px;
+    background: #eeeeee;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.pay_check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.pay_check i{
+    padding: 40px 0 30px 0;
+    font-size: 60px;
+    color: var(--dark_green);
+}
+
+.pay_check button{
+    margin: 20px;
+    padding: 15px;
+    background: #3CAD6D;
+    border-radius: 7px;
+}
+
+.pay_check button a{
+    color: #fff;
+}
+
 
 
 
