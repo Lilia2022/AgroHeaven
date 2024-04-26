@@ -633,6 +633,13 @@ nav a:hover{
     flex-direction: column;
     gap: 15px;
 }
+.cart_summary .cart_details .item p{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.cart_summary .cart_details .item a{
+    color: #000;
+}
 
 .cart_summary .total {
     display: flex;
@@ -640,17 +647,22 @@ nav a:hover{
     gap: 20px;
     align-items: right;
 }
+
+.cart_summary .total span{
+    font-weight: 600;
+    color: #000;
+}
 .checkout button {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 15px;
     background: var(--btn_color);
-    
     border-radius: 7px;
 
 }
 .checkout button a{
     color: #fff;
 }
+
 
 
 
