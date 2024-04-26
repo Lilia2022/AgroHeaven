@@ -554,7 +554,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 20px; */
+    padding: 20px;
     margin-left: 20px;
 }
 .partner h3{
@@ -598,15 +598,20 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    row-gap: 10px;
+    row-gap: 20px;
 }
 .footer_details h3{
     margin-top: 17px;
     color: #000;
-    font-weight: 400;
+    font-weight: 500;
+}
+.footer_details h3:hover{
+    color: var(--dark_green);
+    font-weight: 500;
 }
 .company{
     margin-left: 30px;
+    
     
 }
 .company .comp{
@@ -632,10 +637,68 @@ footer {
     background: var(--dark_green);
     color: #fff;
 }
-
-.categories ul {
-    text-decoration: none;
+.company .cassava {
+    margin-right: 40px;
 }
+
+.categories{
+    margin-left: 20px;
+}
+.categories ul {
+    list-style: none;
+}
+.categories ul li{
+    margin-bottom: 12px;
+}
+.categories ul li a{
+    color: #000;
+    font-size: 14px;
+}
+.categories ul li a:hover{
+    color: var(--btn_color);
+}
+
+.linking ul {
+    list-style: none;
+}
+.linking ul li{
+    margin-bottom: 12px;
+}
+.linking ul li a{
+    color: #000;
+    font-size: 14px;
+}
+.linking ul li a:hover{
+    color: var(--btn_color);
+}
+
+.newsletter {
+    margin-right: 30px;
+}
+
+.newsletter p{
+    font-size: 14px;
+    width: 70%;
+}
+.newsletter input{
+    width: 70%;
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
+.newsletter button{
+    padding: 10px;
+    background: var(--btn_color);
+    width: 60%;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.newsletter img{
+    height: 100px;
+    width: 150px;
+}
+
 /* backtop */
 .back_top {
     width: 100%;
