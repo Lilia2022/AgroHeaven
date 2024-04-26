@@ -16,9 +16,13 @@
     outline: none;
     border: none;
     text-decoration: none;
+    scroll-behavior: smooth;
     
 }
 /* ---------------navbar---------------- */
+.container_all{
+    min-height: 100vh; 
+}
 .navbar {
     display: flex;
     justify-content: space-between; 
