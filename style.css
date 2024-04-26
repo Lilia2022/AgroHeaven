@@ -91,49 +91,6 @@ nav a:hover{
     color: orange;
 }
 
-@media only screen and (max-width: 1350px) {
-    .container_all {
-        min-height: auto;
-    }
-    .navbar {
-        padding: 20px;
-    }
-    .navbar img {
-        width: 60px;
-    }
-    nav {
-        width: 50%;
-    }
-    
-    .navbar .icons {
-        width: 20%;
-    }
-    .navbar .icons ul a{
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 850px) {
-    .container_all {
-        min-height: auto;
-    }
-    .navbar {
-        padding: 15px;
-    }
-    .navbar img {
-        width: 50px;
-    }
-    nav {
-        width: 60%;
-    }
-    .navbar .icons {
-        width: 30%;
-    }
-    .navbar .icons ul a{
-        font-size: 8px;
-    }
-}
-
 
 /* -------------------section home below nav---------- */
 .row {
@@ -219,41 +176,6 @@ nav a:hover{
     top:-190px; /* Add a gap of 10px between the images */
 }
 
-@media only screen and (max-width: 1350px) {
-    .row {
-        padding: 30px;
-    }
-
-    .col1 {
-        flex-basis: 100%;
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .col1 .shop_btn {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .col2 {
-        flex-basis: 100%;
-    }
-
-    .image1 {
-        width: 250px;
-        height: 150px;
-        left: 0;
-        top: -75px;
-    }
-
-    .image2 {
-        width: 250px;
-        height: 500px;
-        left: 175px;
-        top: -150px;
-    }
-}
-
 
 /* ---------------instruction--------------- */
 .instruction {
@@ -312,41 +234,6 @@ nav a:hover{
 .best_cat .cat p{
     margin-left: 28px;
     font-size: 18px;
-}
-
-@media only screen and (max-width: 1350px) {
-    .instruction {
-        padding: 15px;
-        margin: 10px;
-    }
-
-    .instruction i {
-        font-size: 30px;
-    }
-
-    .instruction p {
-        font-size: 16px;
-    }
-
-    .best_cat h3 {
-        margin-left: 20%;
-        font-size: 20px;
-    }
-
-    .best_cat .cat {
-        margin: 20px;
-        padding: 15px;
-    }
-
-    .best_cat .cat img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .best_cat .cat p {
-        margin-left: 20px;
-        font-size: 16px;
-    }
 }
 
 /* -------------Product display----------------- */
@@ -473,58 +360,6 @@ nav a:hover{
     color: #f1c40f; /* Filled star color */
 }
 
-
-@media only screen and (max-width: 1350px) {
-    .product-card {
-        padding: 15px;
-        margin: 5px;
-    }
-
-    .product-card h2 {
-        font-size: 16px;
-        margin: 8px 0;
-    }
-
-    .product-card sub {
-        font-size: 12px;
-    }
-
-    .rating {
-        font-size: 14px;
-    }
-
-    .swiper {
-        width: 90%;
-        height: 300px;
-    }
-
-    .swiper-slide {
-        padding: 8px;
-        height: 250px;
-    }
-
-    .swiper-slide img {
-        width: 140px;
-        height: 110px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .swiper-slide h2 {
-        font-size: 14px;
-        margin-bottom: 15px;
-    }
-
-    .swiper-slide sub {
-        font-size: 12px;
-        margin-bottom: 20px;
-    }
-
-    .rating {
-        font-size: 12px;
-    }
-}
-
 /* --------next section shop now------------- */
 .goShopping {
     margin-top: 20px;
@@ -569,39 +404,6 @@ nav a:hover{
     border-radius: 7px;
 }
 
-@media only screen and (max-width: 1350px) {
-    .goShopping {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .first_col {
-        flex-basis: 100%;
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .first_col img {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .second_col {
-        flex-basis: 100%;
-        padding-top: 30px;
-        text-align: center;
-    }
-
-    .second_col p {
-        width: 80%;
-        margin: 20px auto 40px auto;
-        font-size: 16px;
-    }
-
-    .second_col button {
-        width: 80%;
-    }
-}
 
 /* -----------------overview-------------------- */
 .overview {
@@ -716,60 +518,6 @@ nav a:hover{
     flex-direction: row;
 }
 
-@media only screen and (max-width: 1350px) {
-    .overview {
-        flex-direction: row;
-        padding: 20px;
-    }
-
-    .overview h3 {
-        font-size: 16px;
-    }
-
-    .overview h3 span {
-        font-size: 20px;
-    }
-
-    .overview .ov3-span1 {
-        font-size: 20px;
-        top: -20px;
-    }
-
-    .overview .ov3-span2 {
-        font-size: 16px;
-        top: 0;
-    }
-
-    .feedback {
-        padding: 20px;
-    }
-
-    .customer {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .carol, .michael, .favour {
-        width: 100%;
-        height: auto;
-    }
-
-    .user_image {
-        width: 30%;
-    }
-
-    .user_image img {
-        width: 80px;
-        height: 80px;
-        margin-top: 20px;
-    }
-
-    .text {
-        flex-basis: 70%;
-        padding-top: 20px;
-        align-items: center;
-    }
-}
 
 /* --------------app------------- */
 .app{
@@ -810,33 +558,6 @@ nav a:hover{
   
 }
 
-@media only screen and (max-width: 1350px) {
-    .app {
-        flex-direction: row;
-        height: 300px;
-    }
-
-    .market {
-        flex-basis: 80%;
-        margin-right: 0;
-    }
-
-    .market img {
-        width: 80%;
-        height: 300px;
-    }
-
-    .mobile_app {
-        flex-basis: 80%;
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
-    .mobile_app img {
-        width: 80%;
-        height: 300px;
-    }
-}
 
 /* --partner */
 
@@ -860,24 +581,6 @@ nav a:hover{
     height: fit-content;
 }
 
-@media only screen and (max-width: 1350px) {
-    .partner {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
-
-    .partner .camp {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .camp img {
-        width: 150px;
-        height: auto;
-        margin-bottom: 20px;
-    }
-}
 
 
 
@@ -1231,7 +934,284 @@ footer {
 
 
 /* ---------footer done------ */
+/* 
+@media only screen and (max-width: 850px) {
+    .container_all {
+        min-height: auto;
+    }
+    .navbar {
+        padding: 15px;
+    }
+    .navbar img {
+        width: 50px;
+    }
+    nav {
+        width: 60%;
+    }
+    .navbar .icons {
+        width: 30%;
+    }
+    .navbar .icons ul a{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .row {
+        padding: 30px;
+    }
+
+    .col1 {
+        flex-basis: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .col1 .shop_btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col2 {
+        flex-basis: 100%;
+    }
+
+    .image1 {
+        width: 250px;
+        height: 150px;
+        left: 0;
+        top: -75px;
+    }
+
+    .image2 {
+        width: 250px;
+        height: 500px;
+        left: 175px;
+        top: -150px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .instruction {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .instruction i {
+        font-size: 30px;
+    }
+
+    .instruction p {
+        font-size: 16px;
+    }
+
+    .best_cat h3 {
+        margin-left: 20%;
+        font-size: 20px;
+    }
+
+    .best_cat .cat {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .best_cat .cat img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .best_cat .cat p {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .product-card {
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .product-card h2 {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+
+    .product-card sub {
+        font-size: 12px;
+    }
+
+    .rating {
+        font-size: 14px;
+    }
+
+    .swiper {
+        width: 90%;
+        height: 300px;
+    }
+
+    .swiper-slide {
+        padding: 8px;
+        height: 250px;
+    }
+
+    .swiper-slide img {
+        width: 140px;
+        height: 110px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .swiper-slide h2 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .swiper-slide sub {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .rating {
+        font-size: 12px;
+    }
+}
 
 
+@media only screen and (max-width: 1350px) {
+    .goShopping {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .first_col {
+        flex-basis: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .first_col img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .second_col {
+        flex-basis: 100%;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .second_col p {
+        width: 80%;
+        margin: 20px auto 40px auto;
+        font-size: 16px;
+    }
+
+    .second_col button {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .overview {
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .overview h3 {
+        font-size: 16px;
+    }
+
+    .overview h3 span {
+        font-size: 20px;
+    }
+
+    .overview .ov3-span1 {
+        font-size: 20px;
+        top: -20px;
+    }
+
+    .overview .ov3-span2 {
+        font-size: 16px;
+        top: 0;
+    }
+
+    .feedback {
+        padding: 20px;
+    }
+
+    .customer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .carol, .michael, .favour {
+        width: 100%;
+        height: auto;
+    }
+
+    .user_image {
+        width: 30%;
+    }
+
+    .user_image img {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+    }
+
+    .text {
+        flex-basis: 70%;
+        padding-top: 20px;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .app {
+        flex-direction: row;
+        height: 300px;
+    }
+
+    .market {
+        flex-basis: 80%;
+        margin-right: 0;
+    }
+
+    .market img {
+        width: 80%;
+        height: 300px;
+    }
+
+    .mobile_app {
+        flex-basis: 80%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .mobile_app img {
+        width: 80%;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .partner {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .partner .camp {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .camp img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+ */
 
