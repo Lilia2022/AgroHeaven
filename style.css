@@ -694,6 +694,10 @@ footer {
     cursor: pointer;
     border-radius: 7px;
 }
+.newsletter button:hover{
+    background: #cff3db;
+    color: var(--dark_green);
+}
 .newsletter img{
     height: 100px;
     width: 150px;
