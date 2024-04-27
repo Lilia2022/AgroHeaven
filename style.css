@@ -536,7 +536,6 @@ nav a:hover {
     /* justify-content: space-between; */
 }
 
-/*  */
 
 .carol,
 .michael,
@@ -558,7 +557,7 @@ nav a:hover {
     position: relative;
 }
 .user_image img{
-    width: fit-content;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-top: 100px;
