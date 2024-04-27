@@ -857,7 +857,8 @@ footer {
 }
 .company .cassava {
     margin-right: 20px;
-    height: 100px;
+    width: 100px;
+    height: 150px;
 }
 
 .categories{
