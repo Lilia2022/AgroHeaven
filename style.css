@@ -99,7 +99,7 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
     margin: 10px 0px;
-    padding: 50px;
+    padding: 60px 20px 90px 20px;
     /* background-color: #dbf7e7 */
     background: linear-gradient(to right, #a1f2d36c, #FFFFFFA6);
 
@@ -107,7 +107,7 @@ nav a:hover{
 
 .col1{
     padding-top: 50px;
-    flex-basis: 45%;
+    flex-basis: 50%;
     position: relative;
     margin-left: 60px;
     color: var(--text-color);
@@ -140,11 +140,18 @@ nav a:hover{
     font-weight: 500;
 }
 
+.col1 .shop_btn:hover{
+    background: #cff3db;
+}
+
+.col1 .shop_btn a:hover{
+    color: var(--btn_color);
+}
 
 .col2{
-    padding-top: 50px;
+    padding: 50px 0 0 40px;
     position: relative;
-    flex-basis: 55%;
+    flex-basis: 50%;
     display: flex;
     flex-direction: row;
     align-items: left;
@@ -404,7 +411,18 @@ nav a:hover{
     border-radius: 7px;
 }
 
+.second_col button a {
+    color: #ffff;
+    text-decoration:none;
+}
 
+.second_col button:hover{
+    background: #cff3db;
+    color: var(--dark_green);
+}
+.second_col button a:hover{
+    color: var(--dark_green);
+}
 /* -----------------overview-------------------- */
 .overview {
     background: var(--dark_green);
@@ -570,14 +588,15 @@ nav a:hover{
     margin-left: 20px;
 }
 .partner h3{
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 .partner .camp{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-.camp img {
+.partner .camp img {
     width: 200px;
     height: fit-content;
 }
@@ -670,6 +689,15 @@ nav a:hover{
 .checkout button a{
     color: #fff;
 }
+
+.checkout button:hover{
+    background: #cff3db;
+    color: var(--dark_green);
+}
+
+.checkout button a:hover{
+    color: var(--dark_green);
+}
 /* 
 @media only screen and (max-width: 1350px) {
     .checkout {
@@ -743,7 +771,8 @@ nav a:hover{
     border-radius: 7px;
 }
 .card_bank button:hover{
-    background: #c1c0c0;
+    background: #cff3db;
+    color: var(--dark_green);
 }
 
 .card_bank button a{
@@ -787,6 +816,13 @@ nav a:hover{
 
 .pay_check button a{
     color: #fff;
+}
+.pay_check button:hover{
+    background: #cff3db;
+    color: var(--dark_green);
+}
+.pay_check button a:hover{
+    color: var(--dark_green);
 }
 
 
@@ -857,7 +893,7 @@ footer {
 }
 .company .cassava {
     margin-right: 20px;
-    width: 100px;
+    width: 150px;
     height: 100px;
 }
 
