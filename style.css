@@ -455,6 +455,7 @@ nav a:hover{
     font-weight: 400;
     color: #fff;
 }
+/* -----------------feedback--------------- */
 
 .feedback{
     margin: 20px;
@@ -495,7 +496,7 @@ nav a:hover{
     position: relative;
 }
 .user_image img{
-    width: fit-content;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-top: 100px;
@@ -798,6 +799,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 /* footer details */
 .footer_details{
@@ -805,6 +807,8 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     background: #f8ececa1;
+    width: 100%;
+
 }
 
 .company, .categories, .linking, .newsletter {
@@ -852,11 +856,11 @@ footer {
     color: #fff;
 }
 .company .cassava {
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 .categories{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .categories ul {
     list-style: none;
