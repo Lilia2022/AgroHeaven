@@ -344,7 +344,7 @@ nav a:hover {
 
 .swiper {
     width: 90%;
-    height: 385px;
+    height: 395px;
     margin: 10px;
     justify-content: center;
     align-items: center;
@@ -357,7 +357,7 @@ nav a:hover {
     background-color: #f9f9f9;
     border: 2px solid #ddd;
     padding: 10px;
-    height: 320px;
+    height: 350px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -365,9 +365,9 @@ nav a:hover {
 
 /* Product image */
 .swiper-slide img {
-    margin-top: 30px;
+    margin-top: 15px;
     position: relative;
-    width: 180px;
+    width: 190px;
     height: 140px;
     object-fit: cover;
     margin-bottom: 30px;
@@ -396,6 +396,21 @@ nav a:hover {
 .checked {
     color: #f1c40f;
     /* Filled star color */
+}
+.add_cart_cate {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.add_cart_cate i{
+    background: #095000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-left: 10px;
 }
 
 /* --------next section shop now------------- */
