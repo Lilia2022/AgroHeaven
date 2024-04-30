@@ -59,6 +59,11 @@ nav a {
     color: var(--text_color);
 }
 
+nav a span{
+    color: #095000;
+    font-weight: 600;
+}
+
 nav a:hover {
     color: var(--btn_color);
 }
