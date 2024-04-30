@@ -381,7 +381,7 @@ nav a:hover {
 
 /* Price per kg */
 .swiper-slide sub {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-size: 14px;
     color: #090909;
 }
@@ -411,6 +411,10 @@ nav a:hover {
     border-radius: 5px;
     margin-top: 7px;
     margin-left: 10px;
+}
+.add_cart_cate p{
+    font-size: 15px;
+    margin-top: 7px;
 }
 
 /* --------next section shop now------------- */
